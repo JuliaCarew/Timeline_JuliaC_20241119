@@ -96,7 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: dd925fa574d164245a20f12aeae3d4af,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -495,8 +496,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e419477c509b52748b9387b4732593c5, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: d6e63c1b3e2a7dc44866f041b85df6a6, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1121,14 +1122,14 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 5148844482996643158, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
     value: {fileID: 2032094420}
-  - key: {fileID: 1232489781333481861, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
-    value: {fileID: 1793076015}
   - key: {fileID: -3133182890593403996, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
     value: {fileID: 853113436}
   - key: {fileID: 4678565218175384280, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
     value: {fileID: 2057221193}
   - key: {fileID: -7133083870694372530, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
     value: {fileID: 377644201}
+  - key: {fileID: 8841934311385498451, guid: 514d9db4aaba6724487e291a3f3ac5b5, type: 2}
+    value: {fileID: 1793076015}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &624683863
@@ -2282,7 +2283,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1699696648}
-  m_LocalEulerAnglesHint: {x: 0, y: 0.3403476, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.3380486, z: 0}
 --- !u!65 &1793076010
 BoxCollider:
   m_ObjectHideFlags: 0
